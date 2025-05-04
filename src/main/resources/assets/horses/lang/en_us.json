@@ -1,0 +1,47 @@
+{
+  "text.autoconfig.Horses.title": "Horses Config",
+
+  "text.autoconfig.Horses.category.Server": "Server",
+  "text.autoconfig.Horses.category.Client": "Client",
+
+
+
+  "text.autoconfig.Horses.option.noWander": "No Horse Wandering",
+  "text.autoconfig.Horses.option.noWander.@Tooltip": "Yes - saddled horses wont wander.\nNo - saddled horses will wander",
+
+  "text.autoconfig.Horses.option.breakSpeed": "Remove Riding Breakspeed Debuff",
+  "text.autoconfig.Horses.option.breakSpeed.@Tooltip": "Yes - Allows mining at full speed while on horseback.\nNo - Dramatically slows mining speed while on horseback (vanilla behavior)",
+
+  "text.autoconfig.Horses.option.stepHeight": "Buff Stepheight",
+  "text.autoconfig.Horses.option.stepHeight.@Tooltip": "Yes - Increases horse stepheight from 1 block to 1.1 blocks, making travel much smoother around path blocks.\nNo - vanilla behavior",
+
+  "text.autoconfig.Horses.option.noBuck": "Disable Random Bucking",
+  "text.autoconfig.Horses.option.noBuck.@Tooltip": "Yes - Prevents horses from randomly bucking while mounted, no more random stops!\nNo - vanilla behavior",
+
+  "text.autoconfig.Horses.option.swimHorse": "Horse, Mules, and Donkeys Swim",
+  "text.autoconfig.Horses.option.swimHorse.@Tooltip": "Yes - Lets horses, mules, and donkeys swim when you are riding them.\nNo - Horses, mules, and donkeys sink when you ride them in water (vanilla behavior)",
+
+  "text.autoconfig.Horses.option.swimCamel": "Camels Swim",
+  "text.autoconfig.Horses.option.swimCamel.@Tooltip": "Yes - Lets camels swim when you are riding them.\nNo - Camels sink when you ride them in water (vanilla behavior)",
+
+  "text.autoconfig.Horses.option.swimDead": "Undead Horses Swim",
+  "text.autoconfig.Horses.option.swimDead.@Tooltip": "Yes - Lets Skeleton and Zombie horses swim when you are riding them.\nNo - Skeleton and Zombie horses sink when you ride them in water (vanilla behavior)",
+
+  "text.autoconfig.Horses.option.pitchFade": "Horse Fade",
+  "text.autoconfig.Horses.option.pitchFade.@Tooltip": "When mounted, the horse gets more transparent the further you look down",
+
+  "text.autoconfig.Horses.option.pitchFade.enabled": "Enabled",
+
+  "text.autoconfig.Horses.option.pitchFade.startAngle": "0% transparency angle",
+  "text.autoconfig.Horses.option.pitchFade.startAngle.@Tooltip": "The horse wont be faded above this angle\nlooking below it will start decreasing opacity",
+  "text.autoconfig.Horses.option.pitchFade.endAngle": "Max transparency angle",
+  "text.autoconfig.Horses.option.pitchFade.endAngle.@Tooltip": "Below this angle the horse is as transparent as it will get",
+  "text.autoconfig.Horses.option.pitchFade.maxTransparency": "Maximum transparency",
+  "text.autoconfig.Horses.option.pitchFade.maxTransparency.@Tooltip": "How transparent the horse can get\n100 is invisible",
+
+  "text.autoconfig.Horses.option.horseHeadAngleOffset": "Horse Head pitch offset",
+  "text.autoconfig.Horses.option.horseHeadAngleOffset.@Tooltip": "When mounted, horse heads are angled an extra N degrees down\n   0 is disabled\n   30 is good for visibility and style\n   45 is good for breaking necks",
+
+  "text.Horses.keybinding.category": "Horses",
+  "text.Horses.keybinding.horsePlayerInventory": "Open Inventory on Horse"
+}
