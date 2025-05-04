@@ -24,10 +24,10 @@ public abstract class InventoryAccessorMixin {
     void playerInventoryAccess(ClientPlayerEntity instance) {
         assert this.player != null;
         if (HorsesClient.horsePlayerInventory.isPressed()) {
+            instance.openRidingInventory();
+        } else {
             tutorialManager.onInventoryOpened();
             setScreen(new InventoryScreen(this.player));
-        } else {
-            instance.openRidingInventory();
         }
     }
 }
