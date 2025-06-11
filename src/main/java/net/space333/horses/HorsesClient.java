@@ -10,7 +10,7 @@ public class HorsesClient implements ClientModInitializer {
     public static KeyBinding horsePlayerInventory = KeyBindingHelper.registerKeyBinding(new KeyBinding(
             "text.Horses.keybinding.horsePlayerInventory",
             InputUtil.Type.KEYSYM,
-            GLFW.GLFW_KEY_LEFT_ALT,
+            GLFW.GLFW_KEY_LEFT_CONTROL,
             "text.Horses.keybinding.category"
     ));
 

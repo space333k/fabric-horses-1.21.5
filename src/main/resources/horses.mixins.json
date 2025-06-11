@@ -1,33 +1,37 @@
 {
-	"required": true,
-	"minVersion": "0.8",
-	"package": "net.space333.horses.mixin",
-	"compatibilityLevel": "JAVA_21",
-	"mixins": [
-		"ExampleMixin",
-		"EnderPearlEntityMixin",
-		"SkeletonHorseEntityMixin",
-		"ZombieHorseEntityMixin",
-		"ZombieSiegeManagerMixin",
-		"LeavesBlockMixin",
-		"EnchantHorseArmorMixin",
-		"Server.AllowRaftMixin",
-		"Server.MountedModifiersMixin",
-		"Server.NoBuckMixin",
-		"Server.NoWanderMixin"
-	],
-	"client": [
-		"Client.HeadPitchOffsetMixin",
-		"Client.InventoryAccessorMixin",
-		"Client.LivingEntityRendererMixin",
-		"Client.LlamaDecorFeatureRendererMixin",
-		"Client.RideableEquippableEntityModelMixin",
-		"Client.RideableEntityRenderStateMixin",
-		"Client.SwimMixin",
-		"Client.TransparentEquipmentMixin",
-		"Client.TransparentHorseMarkingsMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.space333.horses.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EnchantmentMixin",
+    "EnderPearlEntityMixin",
+    "HorseBondWithPlayerGoalMixin",
+    "LeavesBlockMixin",
+    "LivingEntityMixin",
+    "SkeletonHorseEntityMixin",
+    "ZombieHorseEntityMixin",
+    "ZombieSiegeManagerMixin",
+    "Server.AllowRaftMixin",
+    "Server.MountedModifiersMixin",
+    "Server.NoBuckMixin",
+    "Server.NoWanderMixin"
+  ],
+  "client": [
+    "Client.AbstractDonkeyEntityRendererMixin",
+    "Client.HeadPitchOffsetMixin",
+    "Client.InventoryAccessorMixin",
+    "Client.LivingEntityRendererAccessor",
+    "Client.LivingEntityRendererMixin",
+    "Client.LlamaDecorFeatureRendererMixin",
+    "Client.RideableEntityRenderStateMixin",
+    "Client.RideableEquippableEntityModelMixin",
+    "Client.SwimMixin",
+    "Client.TransparentEquipmentMixin",
+    "Client.TransparentHorseMarkingsMixin",
+    "Client.UndeadHorseEntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
 	}
 }
